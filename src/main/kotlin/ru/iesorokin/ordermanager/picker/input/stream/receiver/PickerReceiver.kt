@@ -7,13 +7,13 @@ import org.springframework.messaging.handler.annotation.Header
 import org.springframework.messaging.handler.annotation.Payload
 import org.springframework.stereotype.Service
 import ru.iesorokin.ordermanager.picker.config.START_PICKING
-import ru.iesorokin.ordermanager.picker.core.service.conducting.PickerService
+import ru.iesorokin.ordermanager.picker.core.service.picking.PickerService
 import ru.iesorokin.ordermanager.picker.input.dto.StartPickingMessage
 
 private val log = KotlinLogging.logger {}
 
 @Service
-class PodReceiver(
+class PickerReceiver(
         private val pickerService: PickerService,
         @Value("\${conductor.consumer.default.maxRetry}")
         private val maxRetry: Long

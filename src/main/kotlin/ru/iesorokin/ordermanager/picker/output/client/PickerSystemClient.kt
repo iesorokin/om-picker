@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component
 import org.springframework.web.client.RestTemplate
 import ru.iesorokin.ordermanager.picker.error.PaymentTaskNotFoundException
 
-private const val PAYMENT_TASKS_URL_PARAMETER_EXT_ORDER_ID = "extOrderId"
+private const val PICKING_TASKS_URL_PARAMETER_EXT_ORDER_ID = "extOrderId"
 
 @Component
 class PickerSystemClient(
@@ -21,7 +21,7 @@ class PickerSystemClient(
             extOrderId: String
     ): List<Boolean> {
         val uri = URIBuilder(urlPaymentTasksByParameters)
-                .addParameter(PAYMENT_TASKS_URL_PARAMETER_EXT_ORDER_ID, extOrderId)
+                .addParameter(PICKING_TASKS_URL_PARAMETER_EXT_ORDER_ID, extOrderId)
                 .build()
 
         val pickResponse = restTemplatePicker.exchange(

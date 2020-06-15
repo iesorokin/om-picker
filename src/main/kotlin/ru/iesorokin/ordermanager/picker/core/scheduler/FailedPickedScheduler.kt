@@ -8,7 +8,7 @@ import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import ru.iesorokin.ordermanager.picker.core.domain.FailedPickedMessage
 import ru.iesorokin.ordermanager.picker.core.repository.FailedPickedMessageRepository
-import ru.iesorokin.ordermanager.picker.core.service.conducting.PickerService
+import ru.iesorokin.ordermanager.picker.core.service.picking.PickerService
 import java.time.LocalDateTime
 
 private val log = KotlinLogging.logger {}
