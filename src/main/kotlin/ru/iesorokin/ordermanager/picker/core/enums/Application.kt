@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.core.enums
+package ru.iesorokin.ordermanager.picker.core.enums
 
 enum class Application {
     PICKER_SYSTEM

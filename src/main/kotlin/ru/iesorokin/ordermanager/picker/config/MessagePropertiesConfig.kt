@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.config
+package ru.iesorokin.ordermanager.picker.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

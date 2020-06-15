@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.output.stream.sender
+package ru.iesorokin.ordermanager.picker.output.stream.sender
 
 import mu.KotlinLogging
 import org.springframework.messaging.Message

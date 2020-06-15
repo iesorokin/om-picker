@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.output.stream.sender
+package ru.iesorokin.ordermanager.picker.output.stream.sender
 
 import org.springframework.messaging.Message
 import org.springframework.messaging.MessageChannel

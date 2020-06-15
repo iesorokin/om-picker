@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.input.handler
+package ru.iesorokin.ordermanager.picker.input.handler
 
 import mu.KotlinLogging
 import org.springframework.context.MessageSource

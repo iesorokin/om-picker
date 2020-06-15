@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.core.service
+package ru.iesorokin.ordermanager.picker.core.service
 
 import mu.KotlinLogging
 import org.springframework.stereotype.Service

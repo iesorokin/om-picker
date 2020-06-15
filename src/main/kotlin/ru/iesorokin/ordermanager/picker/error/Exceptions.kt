@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.error
+package ru.iesorokin.ordermanager.picker.error
 
 class PaymentTaskNotFoundException(override val message: String) : RuntimeException()
 

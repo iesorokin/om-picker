@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.config
+package ru.iesorokin.ordermanager.picker.config
 
 import org.springframework.cloud.stream.annotation.Input
 import org.springframework.cloud.stream.annotation.Output

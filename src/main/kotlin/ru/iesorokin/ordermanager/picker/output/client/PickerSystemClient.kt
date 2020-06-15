@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.output.client
+package ru.iesorokin.ordermanager.picker.output.client
 
 import org.apache.http.client.utils.URIBuilder
 import org.springframework.beans.factory.annotation.Value

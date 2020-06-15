@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.core.scheduler
+package ru.iesorokin.ordermanager.picker.core.scheduler
 
 import mu.KotlinLogging
 import net.javacrumbs.shedlock.spring.annotation.SchedulerLock

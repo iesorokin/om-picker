@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.output.converter
+package ru.iesorokin.ordermanager.picker.output.converter
 
 import org.springframework.messaging.Message
 import org.springframework.messaging.support.MessageBuilder

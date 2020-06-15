@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.input.dto
+package ru.iesorokin.ordermanager.picker.input.dto
 
 data class StartPickingMessage(
         val pickedId: String,

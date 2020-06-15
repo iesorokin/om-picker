@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.input.stream.receiver
+package ru.iesorokin.ordermanager.picker.input.stream.receiver
 
 import mu.KotlinLogging
 import org.springframework.beans.factory.annotation.Value

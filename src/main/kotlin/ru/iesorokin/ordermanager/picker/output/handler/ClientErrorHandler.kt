@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.output.handler
+package ru.iesorokin.ordermanager.picker.output.handler
 
 import mu.KotlinLogging
 import org.apache.commons.io.IOUtils

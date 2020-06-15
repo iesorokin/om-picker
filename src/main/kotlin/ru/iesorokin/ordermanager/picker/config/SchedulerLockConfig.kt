@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.config
+package ru.iesorokin.ordermanager.picker.config
 
 import com.mongodb.MongoClient
 import net.javacrumbs.shedlock.core.LockProvider

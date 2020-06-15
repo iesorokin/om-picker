@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.error
+package ru.iesorokin.ordermanager.picker.error
 
 enum class ErrorCode(val code: Int, val errorMessage: String) {
     UNEXPECTED(201, "unexpected.error"),

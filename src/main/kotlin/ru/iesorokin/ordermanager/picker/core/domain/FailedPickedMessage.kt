@@ -1,4 +1,4 @@
-package ru.iesorokin.ordermanager.orchestrator.core.domain
+package ru.iesorokin.ordermanager.picker.core.domain
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
